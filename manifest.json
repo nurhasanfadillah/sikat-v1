@@ -1,0 +1,74 @@
+{
+  "name": "SIKAT - Sistem Informasi Keuangan Al-Hasaniyyah Terpusat",
+  "short_name": "SIKAT",
+  "description": "Aplikasi pengelolaan keuangan untuk Al-Hasaniyyah",
+  "theme_color": "#1e40af",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon",
+      "purpose": "favicon"
+    },
+    {
+      "src": "/lovable-uploads/288b9578-1680-4e09-85f5-71677f2d2e8c.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/lovable-uploads/9ce1fe15-5c65-4a33-80ac-beceb0b4ad2f.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["finance", "productivity", "business"],
+  "lang": "id",
+  "dir": "ltr",
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "shortcuts": [
+    {
+      "name": "Kas Masuk",
+      "short_name": "Kas Masuk",
+      "description": "Catat pemasukan baru",
+      "url": "/kas-masuk",
+      "icons": [
+        {
+          "src": "/lovable-uploads/288b9578-1680-4e09-85f5-71677f2d2e8c.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Kas Keluar",
+      "short_name": "Kas Keluar",
+      "description": "Catat pengeluaran baru",
+      "url": "/kas-keluar",
+      "icons": [
+        {
+          "src": "/lovable-uploads/288b9578-1680-4e09-85f5-71677f2d2e8c.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Statistik",
+      "short_name": "Statistik",
+      "description": "Lihat laporan keuangan",
+      "url": "/statistik",
+      "icons": [
+        {
+          "src": "/lovable-uploads/288b9578-1680-4e09-85f5-71677f2d2e8c.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
